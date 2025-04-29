@@ -58,6 +58,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ST7735_CS_Pin GPIO_PIN_4
+#define ST7735_CS_GPIO_Port GPIOA
+#define ST7735_DC_Pin GPIO_PIN_0
+#define ST7735_DC_GPIO_Port GPIOB
+#define ST7735_RES_Pin GPIO_PIN_1
+#define ST7735_RES_GPIO_Port GPIOB
+#define btn_cima_Pin GPIO_PIN_9
+#define btn_cima_GPIO_Port GPIOA
+#define btn_esquerda_Pin GPIO_PIN_10
+#define btn_esquerda_GPIO_Port GPIOA
+#define btn_baixo_Pin GPIO_PIN_11
+#define btn_baixo_GPIO_Port GPIOA
+#define btn_direita_Pin GPIO_PIN_12
+#define btn_direita_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
